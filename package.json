@@ -1,0 +1,38 @@
+{
+  "name": "gulp-amperize",
+  "version": "1.0.0",
+  "description": "AMP up your plain HTML in your Gulpfile",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha $(find test -name '*.test.js')",
+    "watch": "mocha --watch $(find test -name '*.test.js')",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -- $(find test -name '*.test.js')",
+    "test-travis": "istanbul cover node_modules/.bin/_mocha --report lcovonly -- $(find test -name '*.test.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbhannah/gulp-amperize.git"
+  },
+  "keywords": [
+    "amp",
+    "html",
+    "gulp"
+  ],
+  "author": "Jesse B. Hannah <jesse@jbhannah.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbhannah/gulp-amperize/issues"
+  },
+  "homepage": "https://github.com/jbhannah/gulp-amperize#readme",
+  "dependencies": {
+    "amperize": "^0.1.5",
+    "gulp-util": "3.0.7",
+    "through2": "2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "gulp": "^3.9.0",
+    "istanbul": "0.4.0",
+    "mocha": "^2.3.3"
+  }
+}
