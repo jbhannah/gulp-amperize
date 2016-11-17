@@ -36,7 +36,7 @@
     "gulp": "^3.9.0",
     "istanbul": "0.4.5",
     "mocha": "^3.0.0",
-    "semantic-release": "4.3.5"
+    "semantic-release": "6.3.2"
   },
   "config": {
     "commitizen": {
