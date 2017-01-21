@@ -27,7 +27,7 @@
   "homepage": "https://github.com/jbhannah/gulp-amperize#readme",
   "dependencies": {
     "amperize": "0.2.0",
-    "gulp-util": "3.0.7",
+    "gulp-util": "3.0.8",
     "through2": "2.0.3"
   },
   "devDependencies": {
