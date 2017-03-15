@@ -1,5 +1,7 @@
 # gulp-amperize
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jbhannah/gulp-amperize.svg)](https://greenkeeper.io/)
+
 [![Version npm][version]](http://browsenpm.org/package/gulp-amperize)
 [![Build Status][build]](https://travis-ci.org/jbhannah/gulp-amperize)
 [![Dependencies][david]](https://david-dm.org/jbhannah/gulp-amperize)
