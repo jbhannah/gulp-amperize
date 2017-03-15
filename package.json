@@ -26,13 +26,13 @@
   },
   "homepage": "https://github.com/jbhannah/gulp-amperize#readme",
   "dependencies": {
-    "amperize": "0.2.0",
+    "amperize": "0.3.4",
     "gulp-util": "3.0.8",
     "through2": "2.0.3"
   },
   "devDependencies": {
     "chai": "^3.4.0",
-    "cz-conventional-changelog": "1.2.0",
+    "cz-conventional-changelog": "2.0.0",
     "gulp": "^3.9.0",
     "istanbul": "0.4.5",
     "mocha": "^3.0.0",
